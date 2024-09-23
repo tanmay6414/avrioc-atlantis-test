@@ -9,8 +9,6 @@ projects:
   autoplan:
     when_modified: ["*.tf", "../modules/**/*.tf", ".terraform.lock.hcl"]
     enabled: true
-  plan_requirements: [mergeable, approved, undiverged]
-  apply_requirements: [mergeable, approved, undiverged]
 
 - name: my-project-name1
   dir: ./product2
@@ -19,5 +17,3 @@ projects:
   autoplan:
     when_modified: ["*.tf", "../modules/**/*.tf", ".terraform.lock.hcl"]
     enabled: true
-  plan_requirements: [mergeable, approved, undiverged]
-  apply_requirements: [mergeable, approved, undiverged]
