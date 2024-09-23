@@ -1,11 +1,9 @@
 version: 3
-automerge: true
-delete_source_branch_on_merge: true
+
 projects:
 - name: my-project-name
   dir: ./product1
   workspace: default
-  delete_source_branch_on_merge: true
   autoplan:
     when_modified: ["*.tf", "../modules/**/*.tf", ".terraform.lock.hcl"]
     enabled: true
@@ -13,7 +11,6 @@ projects:
 - name: my-project-name1
   dir: ./product2
   workspace: default
-  delete_source_branch_on_merge: true
   autoplan:
     when_modified: ["*.tf", "../modules/**/*.tf", ".terraform.lock.hcl"]
     enabled: true
