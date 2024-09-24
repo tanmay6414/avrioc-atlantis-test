@@ -1,0 +1,16 @@
+version: 3
+
+projects:
+- name: my-project-name
+  dir: ./product1
+  workspace: default
+  autoplan:
+    when_modified: ["*.tf", "../modules/**/*.tf", ".terraform.lock.hcl"]
+    enabled: true
+
+- name: my-project-name1
+  dir: ./product2
+  workspace: default
+  autoplan:
+    when_modified: ["*.tf", "../modules/**/*.tf", ".terraform.lock.hcl"]
+    enabled: true
