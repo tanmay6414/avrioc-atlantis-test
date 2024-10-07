@@ -13,9 +13,6 @@ pipeline {
             tty: true
        
         '''
-
-      
-
       
       
     }
