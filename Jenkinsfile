@@ -11,7 +11,6 @@ pipeline {
             command:
             - cat
             tty: true
-    
        
         '''
       
