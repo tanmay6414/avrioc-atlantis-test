@@ -42,7 +42,7 @@ pipeline {
     }
   }
   stages {
-     stage('Initialize Helm Repo') {
+     stage('SCM checkout') {
       steps {
         container('helm') {
           sh 'helm repo login openonnovationai demo.harbor.com'
