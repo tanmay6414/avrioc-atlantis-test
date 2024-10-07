@@ -1,6 +1,7 @@
 version: 3
 
 
+
 projects:
 - name: my-project-name
   dir: ./product1
