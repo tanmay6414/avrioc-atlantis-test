@@ -8,7 +8,6 @@ projects:
     when_modified: ["*.tf", "../modules/**/*.tf", ".terraform.lock.hcl"]
     enabled: true
 
-
 - name: my-project-name1
   dir: ./product2
   workspace: default
