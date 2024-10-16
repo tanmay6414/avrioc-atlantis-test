@@ -16,3 +16,4 @@ jobs:
         output-file: README.md
         output-method: replace
         git-push: "true"
+        token: ${{ secrets.PAT }}
