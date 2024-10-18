@@ -12,6 +12,8 @@ terraform {
 }
 
 
+
+
 resource "random_bytes" "jwt_secret" {
   length = 64
 }
@@ -38,5 +40,8 @@ locals {
 }
 
 output "name" {
+  value = local.a
+}
+output "name1" {
   value = local.a
 }
