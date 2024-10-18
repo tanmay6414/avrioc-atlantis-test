@@ -36,4 +36,5 @@ No modules.
 | Name | Description |
 |------|-------------|
 | <a name="output_name"></a> [name](#output\_name) | n/a |
+| <a name="output_name1"></a> [name1](#output\_name1) | n/a |
 <!-- END_TF_DOCS -->
