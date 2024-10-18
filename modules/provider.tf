@@ -42,3 +42,6 @@ locals {
 output "name" {
   value = local.a
 }
+output "name1" {
+  value = local.a
+}
