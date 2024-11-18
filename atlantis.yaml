@@ -16,3 +16,4 @@ projects:
     when_modified: ["*.tf", "../modules/**/*.tf", ".terraform.lock.hcl"]
     enabled: true
 
+
